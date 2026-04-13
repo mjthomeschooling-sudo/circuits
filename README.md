@@ -529,3 +529,5 @@ He showed independence, persistence, and pride as he brought all the pieces toge
 
 - **1.4 Innovative Designer**  
 - **1.5 Computational Thinker**
+#   c i r c u i t s  
+ 
