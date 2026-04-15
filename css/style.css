@@ -284,8 +284,8 @@ p {
 }
 .compact-section h3 {
   font-size: 0.95rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.1rem;
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
 }
 .compact-section p {
   font-size: 0.85rem;
@@ -682,6 +682,64 @@ blockquote {
   font-size: 0.85rem;
   color: var(--text-muted);
   margin-bottom: 0.3rem;
+}
+
+.resource-action {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent-cyan);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Tool Header & Links Layout */
+.tool-header-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.tool-header-row h3 {
+  margin: 0 !important;
+}
+
+/* Tool Lesson Links - Inline & Subtle */
+.tool-links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-left: 1rem;
+  vertical-align: middle;
+}
+
+.tool-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.tool-link:hover {
+  color: var(--accent-cyan);
+  border-bottom-color: var(--accent-cyan);
+}
+
+.tool-link svg {
+  width: 12px;
+  height: 12px;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.tool-link:hover svg {
+  opacity: 1;
 }
 
 .resource-action {
