@@ -395,8 +395,8 @@ blockquote {
 /* Images & Thumbnails */
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.2rem;
   margin: 1.5rem 0;
 }
 
@@ -423,14 +423,15 @@ blockquote {
 }
 
 .img-caption {
-  padding: 1rem;
-  background: rgba(0,0,0,0.6);
-  backdrop-filter: blur(5px);
+  padding: 0.6rem 0.8rem;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(8px);
   position: absolute;
   bottom: 0; width: 100%;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   text-align: center;
   border-top: 1px solid var(--glass-border);
+  line-height: 1.2;
 }
 
 .text-caption {
