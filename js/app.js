@@ -17,16 +17,28 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(section);
   });
 
-  // Dynamic Sticky Navigation Shrink
+  // Dynamic Sticky Navigation Shrink & Text Swap
   const nav = document.querySelector('nav');
   const banner = document.querySelector('.banner');
+  const navLinks = document.querySelectorAll('nav a');
   
   window.addEventListener('scroll', () => {
     if (nav && banner) {
       if (window.scrollY > (banner.offsetHeight - 50)) {
-        nav.classList.add('nav-compact');
+        if (!nav.classList.contains('nav-compact')) {
+          nav.classList.add('nav-compact');
+          navLinks.forEach(link => {
+            link.dataset.full = link.textContent;
+            if (link.dataset.short) link.textContent = link.dataset.short;
+          });
+        }
       } else {
-        nav.classList.remove('nav-compact');
+        if (nav.classList.contains('nav-compact')) {
+          nav.classList.remove('nav-compact');
+          navLinks.forEach(link => {
+            if (link.dataset.full) link.textContent = link.dataset.full;
+          });
+        }
       }
     }
   });
