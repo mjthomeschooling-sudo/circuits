@@ -9,7 +9,7 @@
 <body>
 
   <!-- Banner -->
-  <header class="banner" style="background-image: url('assets/main_banner.png');">
+  <header class="banner" style="background-image: url\('./assets/main_banner.png');">
     <h1>REFLECTIONS & GROWTH</h1>
   </header>
 
@@ -19,7 +19,7 @@
       <li><a href="index.html" data-short="Home">Main Page</a></li>
       <li><a href="intro-to-circuits.html" data-short="Intro">Intro to Circuits</a></li>
       <li><a href="explore-with-phet.html" data-short="PhET">Explore with PhET</a></li>
-      <li><a href="build-with-snap-circuits.html" data-short="Snap">Build with Snap Circuits</a></li>
+      <li><a href="build-with-snap-circuits.html" data-short="Snap Circuits">Build with Snap Circuits</a></li>
       <li><a href="code-with-microbit.html" data-short="Micro:bit">Code with Micro:bit</a></li>
       <li><a href="prototype-and-plan.html" data-short="Prototyping">Prototype & Plan Features</a></li>
       <li><a href="final-house-project.html" data-short="Final Build">Final House Project</a></li>
@@ -61,18 +61,26 @@
     <!-- Nurture Definition Section -->
     <section class="section">
       <h1>The Meaning of "Nurture"</h1>
-      <div class="grid-2-col">
-        <div>
-          <h3>What “Nurture” Looks Like for Me as a Learner</h3>
-          <p>Nurture, for me, means having space to learn without pressure to get everything right immediately. I do best when expectations are clear and when I can try something, make mistakes, and go back in with support instead of judgment. I need steady guidance—someone who models the steps, checks in, and helps me break things down when they feel overwhelming.</p>
-          <p>With technology, I feel nurtured when tools are introduced slowly and clearly. I need time to explore features, see examples, and understand how the tool fits into the task. Visuals, tutorials, and chances to practice without being rushed help me feel more confident. When technology is used to scaffold my learning—like videos I can rewatch or tools that let me troubleshoot at my own pace—I feel supported and more willing to take risks.</p>
+      
+      <div class="split-layout">
+        <div class="grid-2-col">
+          <div>
+            <h3>What “Nurture” Looks Like for Me as a Learner</h3>
+            <p style="font-size: 0.9rem; line-height: 1.5;">Nurture, for me, means having space to learn without pressure to get everything right immediately. I do best when expectations are clear and when I can try something, make mistakes, and go back in with support instead of judgment. I need steady guidance—someone who models the steps, checks in, and helps me break things down when they feel overwhelming.</p>
+            <p style="font-size: 0.9rem; line-height: 1.5;">With technology, I feel nurtured when tools are introduced slowly and clearly. I need time to explore features, see examples, and understand how the tool fits into the task. Visuals, tutorials, and chances to practice without being rushed help me feel more confident.</p>
+          </div>
+          <div>
+            <h3>What “Nurture” Looks Like for Me as an Educator</h3>
+            <p style="font-size: 0.9rem; line-height: 1.5;">Nurture, for me, means creating a calm, steady learning environment where the learner feels supported and capable. I pay attention to how they respond when something is new or confusing, and I adjust the pace so they don’t feel overwhelmed. I don’t take over the work, but I also don’t leave them stuck.</p>
+            <p style="font-size: 0.9rem; line-height: 1.5;">With technology, I focus on introducing tools in a way that feels manageable. I model the steps, use visuals, and give time to explore before expecting anything polished. Troubleshooting becomes normal, not a sign of failure.</p>
+          </div>
         </div>
+
         <div>
-          <h3>What “Nurture” Looks Like for Me as an Educator</h3>
-          <p>Nurture, for me, means creating a calm, steady learning environment where the learner feels supported and capable. I pay attention to how they respond when something is new or confusing, and I adjust the pace so they don’t feel overwhelmed. I don’t take over the work, but I also don’t leave them stuck. I stay close, ask guiding questions, and help them break the problem into smaller steps so they can see their own progress.</p>
-          <p>With technology, I focus on introducing tools in a way that feels manageable. I model the steps, use visuals, and give time to explore before expecting anything polished. When something doesn’t work, we treat it as part of the process. Troubleshooting becomes normal, not a sign of failure. This helps the learner stay calm and curious instead of frustrated.</p>
+          <img src="assets/blueprint_accent.png" alt="Artistic blueprint sketch accent" class="img-accent">
         </div>
       </div>
+
       
       <div class="card" style="margin-top: 2rem; border-left: 4px solid var(--accent-cyan);">
         <h3 style="margin-top: 0;">Strategies for a Nurturing Environment</h3>
@@ -112,10 +120,56 @@
       </div>
     </section>
 
+    <!-- Analytical Foundations Section -->
+    <section class="section">
+      <h1>Analytical Foundations</h1>
+      <p>Beyond the classroom build, my growth as a Digital Navigator is rooted in foundational professional standards, data safety, and pedagogical frameworks.</p>
+      
+      <div class="split-layout" style="margin-top: 2rem;">
+        <div class="grid-2-col" style="gap: 1.5rem;">
+          <!-- ISTE Collaborator -->
+          <div class="card" style="border-left: 4px solid var(--accent-cyan); padding: 1.2rem;">
+            <h3 style="color: var(--accent-cyan); display: flex; align-items: center; gap: 0.5rem; font-size: 1.1rem;">
+              🤝 ISTE: Collaborator
+            </h3>
+            <p style="font-size: 0.85rem; line-height: 1.4;">I demonstrated the Collaborator standard through my dedicated partnership with my student throughout this unit. Rather than simply delivering instructions, I worked as a co-designer alongside him—balancing my guidance with his creative engineering choices.</p>
+          </div>
+
+          <!-- Cyber Security -->
+          <div class="card" style="border-left: 4px solid var(--accent-pink); padding: 1.2rem;">
+            <h3 style="color: var(--accent-pink); display: flex; align-items: center; gap: 0.5rem; font-size: 1.1rem;">
+              🛡️ Cyber Security
+            </h3>
+            <p style="font-size: 0.85rem; line-height: 1.4;">My heightened awareness of cyber threats has made me much more cautious about data privacy. I now proactively reject non-essential cookies and scrutinize permission prompts before clicking "OK."</p>
+          </div>
+
+          <!-- Data Management -->
+          <div class="card" style="border-left: 4px solid var(--accent-cyan); padding: 1.2rem;">
+            <h3 style="color: var(--accent-cyan); display: flex; align-items: center; gap: 0.5rem; font-size: 1.1rem;">
+              📂 Data Organization
+            </h3>
+            <p style="font-size: 0.85rem; line-height: 1.4;">I learned the immense value of labeling pictures immediately after taking them. Documentation moves quickly, and I realized that real-time labeling is essential for accurate data retrieval.</p>
+          </div>
+
+          <!-- TPACK Model -->
+          <div class="card" style="border-left: 4px solid var(--accent-purple); padding: 1.2rem;">
+            <h3 style="color: var(--accent-purple); display: flex; align-items: center; gap: 0.5rem; font-size: 1.1rem;">
+              ⚙️ TPACK Framework
+            </h3>
+            <p style="font-size: 0.85rem; line-height: 1.4;">The TPACK model describes the intersection where Content, Pedagogy, and Technology meet. It ensures that digital tools are chosen strategically to amplify the content goals.</p>
+          </div>
+        </div>
+
+        <div>
+          <img src="assets/tech_accent.png" alt="Glowing circuit board tech accent" class="img-accent">
+        </div>
+      </div>
+    </section>
+
     <!-- Future-Focused ISTE Table -->
     <section class="section">
       <h1>The Future of My Practice</h1>
-      <p>Reflecting on the ISTE standards throughout this project has shaped how I view my future roles as both a learner and an educator.</p>
+      <p>Reflecting on these ISTE standards throughout this project has shaped how I view my future roles as both a learner and an educator.</p>
       
       <table style="width: 100%; border-collapse: collapse; margin-top: 2rem; background: var(--glass-bg); border-radius: 12px; overflow: hidden;">
         <thead>

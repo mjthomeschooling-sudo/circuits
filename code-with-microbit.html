@@ -9,7 +9,7 @@
 <body>
 
   <!-- Banner -->
-  <header class="banner" style="background-image: url('assets/microbit_banner.png');">
+  <header class="banner" style="background-image: url\('./assets/microbit_banner.png');">
     <h1>CODE WITH MICRO:BIT</h1>
   </header>
 
@@ -19,7 +19,7 @@
       <li><a href="index.html" data-short="Home">Main Page</a></li>
       <li><a href="intro-to-circuits.html" data-short="Intro">Intro to Circuits</a></li>
       <li><a href="explore-with-phet.html" data-short="PhET">Explore with PhET</a></li>
-      <li><a href="build-with-snap-circuits.html" data-short="Snap">Build with Snap Circuits</a></li>
+      <li><a href="build-with-snap-circuits.html" data-short="Snap Circuits">Build with Snap Circuits</a></li>
       <li><a href="code-with-microbit.html" class="active" data-short="Micro:bit">Code with Micro:bit</a></li>
       <li><a href="prototype-and-plan.html" data-short="Prototyping">Prototype & Plan Features</a></li>
       <li><a href="final-house-project.html" data-short="Final Build">Final House Project</a></li>
@@ -42,7 +42,7 @@
     <section class="section">
       <h1>Lesson Plan</h1>
       <div class="resource-section">
-        <a href="resources/Welcome-to-the-microbit-World.pdf" target="_blank" class="resource-card">
+        <a href="./resources/Welcome-to-the-microbit-World.pdf" target="_blank" class="resource-card">
           <div class="resource-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
@@ -93,7 +93,7 @@
 
       <!-- PDF Document Card -->
       <div class="resource-section" style="margin-bottom: 2rem;">
-        <a href="resources/Micro/Micro_bit-2026-04-14-16-06.pdf" target="_blank" class="resource-card">
+        <a href="./resources/Micro/Micro_bit-2026-04-14-16-06.pdf" target="_blank" class="resource-card">
           <div class="resource-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
@@ -153,14 +153,19 @@
 
     <section class="section">
       <h1>Student Reflection</h1>
-      <blockquote>
-        <p>“In this part of the unit, I used the micro:bit with a breadboard and connected different components to make my code work in real life. I learned how the micro:bit and the breadboard work together and how the code controls each part. I was surprised by how simple some of the setups were, especially lighting the LEDs, which looked complicated at first but turned out to be easy.</p>
-        <p>I had a few challenges, like when the USB connection didn’t work at first, but switching the port fixed it and the pins on the breadboard were a bit confusing to me. I want to learn how to make a game and put it onto the micro:bit. Overall, I still feel very confident about moving on to breadboards and sensors next.”</p>
-      </blockquote>
+      <div class="split-layout">
+        <div class="pull-quote">
+          <p>“In this part of the unit, I used the micro:bit with a breadboard and connected different components to make my code work in real life. I was surprised by how simple some of the setups were, especially lighting the LEDs, which looked complicated at first but turned out to be easy.”</p>
+        </div>
+        <div>
+          <img src="assets/led_accent.png" alt="Colorful glowing LEDs on a breadboard" class="img-accent">
+        </div>
+      </div>
     </section>
 
     <section class="section">
       <h1>ISTE Standards Addressed</h1>
+      <p class="section-subtitle">▹ Click on any standard below to expand the description</p>
       <details>
         <summary>1.1 Empowered Learner</summary>
         <p>The student explored the Micro:bit’s built‑in features and used the MakeCode simulator to test ideas independently. They also learned how to connect the Micro:bit to a breadboard using the T‑type adapter, giving them control over how power and signals flowed through their circuits and building confidence in navigating both digital and physical tools.</p>
